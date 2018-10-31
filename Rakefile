@@ -4,6 +4,7 @@ require_relative './config/environment'
 
 # Type `rake -T` on your command line to see the available rake tasks.
 
+desc 'Enter a console'
 task :console do
   Pry.start
 end
